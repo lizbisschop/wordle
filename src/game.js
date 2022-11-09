@@ -13,7 +13,8 @@ import "./styles.css";
 // npm audit fix
 // npm run start
 
-const answer = "codam";
+//finding a random word out of the word list
+const answer = words[Math.floor(Math.random() * words.length)];
 
 export const validateGuess = (guess) => {
   console.clear();
